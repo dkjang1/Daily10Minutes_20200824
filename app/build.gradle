@@ -38,13 +38,13 @@ dependencies {
     //14:Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 
-    //15-1:firebase-functions 추가
-    //Tools->Firebase->Cloud Functions for Firestore->Setup functions and trigger a function
-    //com.google.firebase:firebase-functions:16.1.3 -> 20.2.4
+    //15-1:firebase-messaging 추가
+    //Tools->Firebase->Cloud Messaging->Setup Firesbase Cloud Messaging
+    //com.google.firebase:firebase-messaging:17.3.4 -> 20.2.4
     //Firebase 콘솔(https://console.firebase.google.com):프로젝트개요->설정->프로젝트설정(google-services.json) 다운로드
     //Android -> Project변경 app 붙여넣기
-    //15-3:syncnow(com.google.firebase:firebase-functions:20.2.4)
-    implementation 'com.google.firebase:firebase-functions:20.2.4'
+    //15-3:SyncNow(com.google.firebase:firebase-messaging:20.2.4)
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
     testImplementation 'junit:junit:4.12'
