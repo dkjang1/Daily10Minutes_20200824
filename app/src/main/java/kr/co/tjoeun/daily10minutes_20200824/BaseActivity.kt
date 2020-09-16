@@ -16,7 +16,18 @@ import androidx.appcompat.app.AppCompatActivity
 //11:프로젝트목록어댑터(Glide) -> 12:프로젝트목록(MainActivity.kt)
 //12:프로젝트목록(로그아웃) -> 13:스플래시화면(activity_splash.xml)
 <!--//13:스플래시화면 -> 14:스플래시화면(SplashActivity.kt)-->
-//14:스플래시화면(Manifest+자동로그인확인) -> 15:
+//14:스플래시화면(Manifest+자동로그인확인) -> 15:firebase-messaging 추가(build.gradle)
+//15:firebase-messaging 추가 -> 16:MyFCMService firebase.MESSAGE_EVENT(AndroidMenifest.xml)
+//16:MyFCMService firebase.MESSAGE_EVENT -> 17:MyFCMService(MyFCMService.kt)
+//17:MyFCMService -> 18:프로젝트상세페이지(activity_view_project_detail.xml)
+//18:프로젝트상세페이지 -> 19:프로젝트상세페이지(ViewProjectDetailActivity.kt)
+//19:프로젝트상세페이지 -> 20:RestAPI.프로젝트상세(ServerUtil.kt)
+//20:RestAPI.프로젝트상세 -> 21:프로젝트상세.가져오기(ViewProjectDetailActivity.kt)
+//21:프로젝트상세.가져오기 -> 22:프로젝트데이터넣기(Project.kt)
+//22:프로젝트데이터넣기(Json) -> 23:23:프로젝트상세데이터처리(ViewProjectDetailActivity.kt)
+//23:프로젝트상세데이터처리 -> 24:RestAPI.프로젝트등록(ServerUtil.kt)
+//24:RestAPI.프로젝트등록 -> 25:프로젝트등록버튼(ViewProjectDetailActivity.kt)
+//25:프로젝트등록버튼 -> 26:서버에서 보내준 프로젝트정보(mProject)를 새로 반영하는 기능(ViewProjectDetailActivity.kt)
 */
 
 //STEP1:BaseActivity만들기

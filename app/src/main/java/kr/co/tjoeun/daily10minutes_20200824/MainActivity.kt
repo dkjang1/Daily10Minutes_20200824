@@ -30,6 +30,17 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
+
+        //18:프로젝트상세페이지 -> 19:프로젝트상세페이지(ViewProjectDetailActivity.kt)
+        projectListView.setOnItemClickListener { parent, view, position, id ->
+
+            val clickedProject = mProjectList[position]
+            val myIntent = Intent(mContext, ViewProjectDetailActivity::class.java)
+
+            //myIntent.putExtra("project", clickedProject)
+            startActivity(myIntent)
+        }
+
         logoutBtn.setOnClickListener {
             val alert = AlertDialog.Builder(mContext)
             alert.setTitle("로그아웃확인")

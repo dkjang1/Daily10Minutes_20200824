@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "kr.co.tjoeun.daily10minutes_20200824"
-//15-2:minSdkVersion 15 -> 16
+//15-1:minSdkVersion 15 -> 16
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -38,12 +38,12 @@ dependencies {
     //14:Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 
-    //15-1:firebase-messaging 추가
+    //15:firebase-messaging 추가 -> 16:MyFCMService firebase.MESSAGE_EVENT(AndroidMenifest.xml)
     //Tools->Firebase->Cloud Messaging->Setup Firesbase Cloud Messaging
     //com.google.firebase:firebase-messaging:17.3.4 -> 20.2.4
     //Firebase 콘솔(https://console.firebase.google.com):프로젝트개요->설정->프로젝트설정(google-services.json) 다운로드
     //Android -> Project변경 app 붙여넣기
-    //15-3:SyncNow(com.google.firebase:firebase-messaging:20.2.4)
+    //15-2:SyncNow(com.google.firebase:firebase-messaging:20.2.4)
     implementation 'com.google.firebase:firebase-messaging:20.2.4'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 

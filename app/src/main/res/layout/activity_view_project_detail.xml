@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewProjectDetailActivity">
+
+    <!--//18:프로젝트상세페이지 -> 19:프로젝트상세페이지(ViewProjectDetailActivity.kt)-->
+
+    <ImageView
+        android:id="@+id/projectImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:text="독서하기" />
+
+
+        <TextView
+            android:id="@+id/onGoingMemberCountTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/darkGray"
+            tools:text="(현재 참여인원 : 10명)" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/descriptionTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:text="저의 취미는 독서입니다." />
+
+        <TextView
+            android:id="@+id/proofMethodTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/darkGray"
+            android:textSize="15sp"
+            tools:text="맘에 드는 문장사진찍어올리기" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/giveUpBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="중도포기" />
+
+        <Button
+            android:id="@+id/applyBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="신청하기" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewAllMembersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="참여중인 사람들 보기" />
+
+    <Button
+        android:id="@+id/viewDailyProofBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜" />
+
+</LinearLayout>
