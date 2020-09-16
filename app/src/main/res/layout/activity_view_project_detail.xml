@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ViewProjectDetailActivity">
 
     <!--//18:프로젝트상세페이지 -> 19:프로젝트상세페이지(ViewProjectDetailActivity.kt)-->

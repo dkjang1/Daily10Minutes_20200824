@@ -131,5 +131,5 @@ class ViewProjectDetailActivity : BaseActivity() {
             applyBtn.isEnabled = true
         }
     }
-략ㄷ
+
 }

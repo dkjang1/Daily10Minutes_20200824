@@ -1,8 +1,9 @@
 package kr.co.tjoeun.daily10minutes_20200824.datas
 
 import org.json.JSONObject
+import java.io.Serializable
 
-class Project {
+class Project : Serializable {
 
     var id = 0
     var title = ""
@@ -28,7 +29,6 @@ class Project {
             if (!json.isNull("my_last_status")) {
                 project.myLastStatus = json.getString("my_last_status")
             }
-
 
             return project
         }
