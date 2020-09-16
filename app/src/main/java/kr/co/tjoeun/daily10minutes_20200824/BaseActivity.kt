@@ -20,8 +20,8 @@ import androidx.appcompat.app.AppCompatActivity
 //15:firebase-messaging 추가 -> 16:MyFCMService firebase.MESSAGE_EVENT(AndroidMenifest.xml)
 //16:MyFCMService firebase.MESSAGE_EVENT -> 17:MyFCMService(MyFCMService.kt)
 //17:MyFCMService -> 18:프로젝트상세페이지(activity_view_project_detail.xml)
-
 <!--//18:프로젝트상세페이지 -> 19:프로젝트상세페이지(ViewProjectDetailActivity.kt)-->
+
 //19:프로젝트상세페이지 -> 20:RestAPI.프로젝트상세(ServerUtil.kt)
 //20:RestAPI.프로젝트상세 -> 21:프로젝트상세.가져오기(ViewProjectDetailActivity.kt)
 //21:프로젝트상세.가져오기 -> 22:프로젝트데이터넣기(Project.kt)
