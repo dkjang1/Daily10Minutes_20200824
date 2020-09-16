@@ -25,8 +25,8 @@ import androidx.appcompat.app.AppCompatActivity
 //20:RestAPI.프로젝트상세 -> 21:프로젝트상세.가져오기(ViewProjectDetailActivity.kt)
 //21:프로젝트상세.가져오기 -> 22:프로젝트데이터넣기(Project.kt)
 //22:프로젝트데이터넣기(Json) -> 23:프로젝트상세데이터처리(ViewProjectDetailActivity.kt)
-
 //23:프로젝트상세데이터처리 -> 24:RestAPI.프로젝트등록(ServerUtil.kt)
+
 //24:RestAPI.프로젝트등록 -> 25:프로젝트등록버튼(ViewProjectDetailActivity.kt)
 //25:프로젝트등록버튼 -> 26:서버에서 보내준 프로젝트정보(mProject)를 새로 반영하는 기능(ViewProjectDetailActivity.kt)
 */
